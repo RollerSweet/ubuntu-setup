@@ -1,0 +1,28 @@
+[window]
+  opacity = 0.93
+  decorations = "None"
+  padding = { x=5,y=5 }
+  startup_mode = "Maximized"
+[keyboard]
+  bindings = [
+  { key = "d", mods = "Control", action = "Quit"}
+  ]
+
+[font.normal]
+family = "0xProtoNerdFont"
+style = "Regular"
+
+[font.bold]
+family = "0xProtoNerdFont"
+style = "Bold"
+
+[font.italic]
+family = "0xProtoNerdFont"
+style = "Italic"
+
+[font.bold_italic]
+family = "0xProtoNerdFont"
+style = "Bold Italic"
+
+[font]
+size = 12

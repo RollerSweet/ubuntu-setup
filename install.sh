@@ -3,6 +3,8 @@ sudo apt-get install -yqq golang
 
 # Scripts
 bash ./scripts/fonts.sh
+bash ./scripts/zsh_omzsh.sh
+bash ./scripts/tmux_tpm.sh
 bash ./scripts/ghostty.sh
 bash ./scripts/alacritty.sh
 bash ./scripts/bat.sh

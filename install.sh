@@ -10,7 +10,7 @@ bash ./scripts/neovim.sh
 bash ./scripts/lazygit.sh
 bash ./scripts/lazydocker.sh
 bash ./scripts/kubectl.sh
-#bash ./scripts/.sh
+bash ./scripts/fzf.sh
 
 # Configs
 mkdir -p ~/.config/{tmux,nvim}

@@ -26,4 +26,7 @@ curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/i
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 
-
+# Configs
+mkdir -p ~/.config/{tmux,nvim}
+cp ./configs/tmux/tmux.conf ~/.config/tmux/tmux.conf
+cp -r ./nvim/* ~/.config/nvim

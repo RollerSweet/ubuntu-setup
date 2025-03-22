@@ -16,3 +16,5 @@ bash ./scripts/kubectl.sh
 mkdir -p ~/.config/{tmux,nvim}
 cp ./configs/tmux/tmux.conf ~/.config/tmux/tmux.conf
 cp -r ./nvim/* ~/.config/nvim
+tmux source-file ~/.config/tmux/tmux.conf
+

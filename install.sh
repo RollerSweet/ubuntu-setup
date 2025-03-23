@@ -57,7 +57,7 @@ info "Setting up configs..."
 mkdir -p ~/.config/{tmux,nvim}
 
 TMUX_CONF="${BASE_DIR}/configs/tmux/tmux.conf"
-NVIM_CONFIG="${BASE_DIR}/nvim"
+NVIM_CONFIG="${BASE_DIR}/configs/nvim"
 
 if [[ -f "$TMUX_CONF" ]]; then
   cp "$TMUX_CONF" ~/.config/tmux/tmux.conf

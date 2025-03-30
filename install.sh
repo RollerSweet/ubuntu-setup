@@ -25,6 +25,7 @@ apt-get update && apt-get upgrade -yqq
 
 info "Installing base packages..."
 apt-get install -yqq golang
+wget https://github.com/derailed/k9s/releases/latest/download/k9s_linux_amd64.deb && apt install ./k9s_linux_amd64.deb && rm k9s_linux_amd64.deb
 
 # === Scripts ===
 SCRIPTS=(
